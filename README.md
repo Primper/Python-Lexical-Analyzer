@@ -3,12 +3,12 @@ This Python program is a lexical analyzer of a custom programming language.
 The program interface is implemented through PyQT.
 
 ## How the program works:
-The user enters a program code into the input field of the interface. After clicking on the "Start" button, the entire contents of the line is transferred to the "tempo" txt file. The program takes data from a file and processes it by performing lexical analysis.
+The user enters a program code into the input field of the interface. After clicking on the "Start" button, the entire contents of the line is transferred to the "temp.txt" file. The program takes data from a file and processes it by performing lexical analysis.
 
 ### Sample input code for analysis:
 
 `
-{  
+{\
 a := 9;  
 b := 33;
 /* Comment */
