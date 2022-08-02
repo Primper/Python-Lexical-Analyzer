@@ -9,7 +9,6 @@ The user enters a program code into the input field of the interface. After clic
 
 `
 {  
-
 a := 9;  
 b := 33;
 /* Comment */
