@@ -7,7 +7,14 @@ The user enters a program code into the input field of the interface. After clic
 
 ### Sample input code for analysis:
 
-`dsa`
+`
+{
+a := 9;
+b := 33;
+/* Comment */
+c := a plus b;
+}
+`
 
 ### The Backus-Naur forms are listed below:
 
