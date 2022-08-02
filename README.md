@@ -2,10 +2,10 @@
 This Python program is a lexical analyzer of a custom programming language.
 The program interface is implemented through PyQT.
 
-How the program works:
+## How the program works:
 The user enters a program code into the input field of the interface. After clicking on the "Start analysis" button, the entire contents of the line is transferred to the "tempo" txt file. The program takes data from a file and processes it by performing lexical analysis.
 
-### The Backus-Naur formulas are listed below:
+### The Backus-Naur forms are listed below:
 
 + ___character___ ::= A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z
 + ___number___ ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
