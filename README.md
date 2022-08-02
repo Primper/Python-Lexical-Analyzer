@@ -8,7 +8,7 @@ The user enters a program code into the input field of the interface. After clic
 ### Sample input code for analysis:
 
 `
-{  
+{ <br/>
 a := 9;  
 b := 33;
 /* Comment */
