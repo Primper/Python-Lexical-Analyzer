@@ -5,7 +5,7 @@ The program interface is implemented through PyQT.
 How the program works:
 The user enters a program code into the input field of the interface. After clicking on the "Start analysis" button, the entire contents of the line is transferred to the "tempo" txt file. The program takes data from a file and processes it by performing lexical analysis.
 
-###The Backus-Naur formulas are listed below:
+### The Backus-Naur formulas are listed below:
 
 + ___character___ ::= A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z
 + ___number___ ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
@@ -13,21 +13,21 @@ The user enters a program code into the input field of the interface. After clic
 + ___binary___ ::= {/ 0 | 1 /} (B | b)
 + ___octal___ ::= {/ 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 /} (O | o)
 + ___decimal___ ::= {/ ___number___ /} [D | d]
-+ <hexadecimal>::= <number> {<number> | A | B | C | D | E | F | a | b | c | d | e | f} (H | h)
-+ <real>::= <numeric_string> <index> | [<numeric_string>] . <numeric_string> [index]
-+ <numeric_string>::= {/ <number> /}
-+ <index>::= ( E | e ) [ + | - ] <numeric_string>
-+ <program>::= «{» {/ (<description> | <operator>) ; /} «}»
-+ <description>::= {<identifier> {, <identifier> } : <type> ;}
-+ <type>::= % | ! | $
-+ <compound>::= begin <operator> { ; <operator> } end
-+ <assignment>::= <identifier> := <expression>
-+ <conditional>::= if  «(»<expression> «)» <operator> [else <operator>]
-+ <fixed_cycle>::= for <assignment>  to <expression> [step <expression>] <operator> next
-+ <conditional_loop>::= while «(»<expression> «)» <operator>
-+ <input>::= readln identifier {, <identifier> }
-+ <output>::= writeln <expression> {, <expression> }
-+ <comment_start>::= «/*»
++ ___hexadecimal___ ::= ___number___ {___number___ | A | B | C | D | E | F | a | b | c | d | e | f} (H | h)
++ ___real___ ::= ___numeric_string___ ___index___ | [___numeric_string___] . ___numeric_string___ [___index___]
++ ___numeric_string___ ::= {/ ___number___ /}
++ ___index___ ::= ( E | e ) [ + | - ] ___numeric_string___
++ ___program___ ::= «{» {/ (___description___ | ___operator___) ; /} «}»
++ ___description___ ::= {___identifier___ {, ___identifier___ } : ___type___ ;}
++ ___type___ ::= % | ! | $
++ ___compound___ ::= begin ___operator___ { ; ___operator___ } end
++ ___assignment___ ::= ___identifier___ := ___expression___
++ ___conditional___ ::= if  «(»___expression___ «)» ___operator___ [else ___operator___]
++ ___fixed_cycle___ ::= for ___assignment___  to ___expression___ [step ___expression___] ___operator___ next
++ ___conditional_loop___ ::= while «(»___expression___ «)» ___operator___
++ ___input___ ::= readln ___identifier___ {, ___identifier___ }
++ ___output___ ::= writeln ___expression___ {, ___expression___ }
++ ___comment_start___ ::= «/*»
 + <comment_end>::= «*/»
 + <relation_group_operations>::= NE | EQ | LT | LE | GT | GE
 + <addition_group_operations>:: = plus | min | or
