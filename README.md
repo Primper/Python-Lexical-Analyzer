@@ -10,9 +10,9 @@ The user enters a program code into the input field of the interface. After clic
 + ___character___ ::= A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z
 + ___number___ ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 + ___integer___ ::= ___binary___ | ___octal___ | ___decimal___ | ___hexadecimal___
-+ <binary>::= {/ 0 | 1 /} (B | b)
-+ <octal>::= {/ 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 /} (O | o)
-+ <decimal>::= {/ <number> /} [D | d]
++ ___binary___ ::= {/ 0 | 1 /} (B | b)
++ ___octal___ ::= {/ 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 /} (O | o)
++ ___decimal___ ::= {/ ___number___ /} [D | d]
 + <hexadecimal>::= <number> {<number> | A | B | C | D | E | F | a | b | c | d | e | f} (H | h)
 + <real>::= <numeric_string> <index> | [<numeric_string>] . <numeric_string> [index]
 + <numeric_string>::= {/ <number> /}
